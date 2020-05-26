@@ -10,6 +10,8 @@ public class mainClass {
 		ProcessHandle.allProcesses()
         .forEach(process -> System.out.println(processDetails(process)));
 		
+		
+		System.out.println("Message for Git");
           
 	}
 	

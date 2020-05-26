@@ -28,16 +28,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
-task ali{
-for(int i=0;i<10;i++){
-   println "Ali"
-   if(i==5){
-    print "Hurray"+i 
-   }
-   }
-   
-   def a=5
-   def b=9
-   assert b==a+a
-}
 
