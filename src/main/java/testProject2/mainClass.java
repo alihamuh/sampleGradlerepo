@@ -11,7 +11,7 @@ public class mainClass {
         .forEach(process -> System.out.println(processDetails(process)));
 		
 		
-		System.out.println("Message for Git");
+		System.out.println("Changed Git message");
           
 	}
 	
