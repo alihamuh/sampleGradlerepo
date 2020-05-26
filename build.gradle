@@ -28,4 +28,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+task runproject(type:JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+
+    main = project.hasProperty("mainClass") ? project.getProperty("mainClass") : "testProject2.mainClass"
+}
 
